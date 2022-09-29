@@ -1,0 +1,47 @@
+<html>
+	<head>
+		<title>Перевод размеров данных</title>
+		<meta charset="utf-8">	
+		<link rel="stylesheet" href="main.css"/>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<h1 class="title">Перевод размеров данных</h1>
+	<p class="title">На этом сайте вы можете выполнить <b>перевод размеров данных</b></p>
+	<br>
+	<div class="text-field">
+		<label class="text-field__label" for="username">Размер</label>
+		<input class="text-field__input" type="text" name="razmer" id="razmer" placeholder="1024">
+	 <select id="setraz" class="select-css">
+	<option value="m1">Бит</option>
+	<option value="m2">Байт</option>
+	<option value="m3">Кбайт</option>
+	<option value="m4">Мбайт</option>
+	<option value="m5">Гбайт</option>
+</select>
+</div>
+ <p class="text"><b>Перевести в:</b></p>
+ <select id="setraz2" class="select-css">
+	<option value="n1">Бит</option>
+	<option value="n2">Байт</option>
+	<option value="n3">Кбайт</option>
+	<option value="n4">Мбайт</option>
+	<option value="n5">Гбайт</option>
+</select> <br>
+ <button class="btn1">Расчитать</button> 
+ <br>
+ <h2 class="title">Ответ:</h2>
+ 
+ <div class="answers">
+ <div class="out1"></div>
+ </div>
+ <br>
+<script src="main.js"></script>
+	<hr>
+	<ul>
+		<li class="vk"><a href="https://vk.com/whoamin">ВК</a> разработчика</li>
+
+	</ul>  
+	</body>
